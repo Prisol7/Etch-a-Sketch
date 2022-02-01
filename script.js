@@ -1,7 +1,7 @@
 const container = document.querySelector('#container');
-container.style.cssText += 'height: 832px; width: 832px;';
-let gridwidth = 16;
-let gridheight = 16;
+container.style.cssText += 'height: 1200px; width: 1200px;';
+let gridwidth = 48;
+let gridheight = 48;
 let boxes = gridheight * gridwidth;
 const blackButton = document.querySelector('#black');
 const rgbButton = document.querySelector('#rgb');
@@ -12,6 +12,7 @@ const resetButton = document.querySelector('#reset');
 for (let index = 0; index < boxes; index++) {
    let div = document.createElement('div')
    div.classList.add('inside');
+   
    div.addEventListener('mouseover', function(event){
     event.target.style.backgroundColor = 'black';
 })

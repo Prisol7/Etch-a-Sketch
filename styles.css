@@ -7,11 +7,12 @@ body{
 #container{
     display: flex;
     flex-wrap: wrap;  
+    border: 1px solid black;
 }
 .inside{
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+   
 }
 #options{
     display: flex;
